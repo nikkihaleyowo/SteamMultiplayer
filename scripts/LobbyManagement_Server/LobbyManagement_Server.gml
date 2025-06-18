@@ -41,7 +41,7 @@ function server_player_spawn_at_pos(_steam_id,_pos){
 				steamID: _steam_id,
 				lobbyMemberID: i,
 			})
-			playerList[i].character = _inst;
+			playerList[i].character = inst;
 		}
 	}
 }

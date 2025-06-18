@@ -1,5 +1,5 @@
 ///self obj_Client
-function sync_player(_new_list){
+function sync_players(_new_list){
 	var _steamIDs = [];
 	for(var i = 0; i<array_length(playerList); i++){
 		array_push(_steamIDs, playerList[i].steamID)	
